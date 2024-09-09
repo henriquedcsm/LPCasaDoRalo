@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    padding: 14px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.section {
+    height: 100vh;
+    padding-top: 80px; /* compensar a navbar fixa */
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.section.visible {
+    opacity: 1;
+}
+
+#home {
+    background-color: lightblue;
+}
+
+#about {
+    background-color: lightgreen;
+}
+
+#menu {
+    background-color: lightcoral;
+}
+
+#contact {
+    background-color: lightgoldenrodyellow;
+}

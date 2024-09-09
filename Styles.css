@@ -1,0 +1,383 @@
+body {
+    font-family: sans-serif !important;
+    color: white;
+    background-color: #f8f9fa;
+    margin: 0;
+}
+
+.logo {
+    width: 50px;
+}
+
+
+.header {
+   color: white;
+    text-align: center;
+    padding: 100px 0;
+    height: 500px;
+    background-image: url(IMG/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+}
+
+@media (max-width: 767px) {
+    .header{
+       background-image: url(IMG/bg3.png);
+       align-content: center;
+    }
+    .header h1 {
+        font-size: 2rem !important;
+        
+    }
+}
+
+.init {
+    width: 15vw;
+}
+
+
+.header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+.header p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #555;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.carousel-thin img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #6D0E0E;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 30%;
+    margin: 0 10px;
+}
+
+.footer-section h2 {
+    margin-top: 0;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.socials {
+    margin-top: 10px;
+}
+
+.socials a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.socials img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.navbar-custom {
+    background-color: white;
+    padding: 15px;
+}
+
+.navbar {
+    align-items: center;
+    position: fixed !important;
+    width: 100% !important;
+z-index: 1000 !important;
+}
+
+.navbar-collapse {
+    color: white !important;
+    width: fit-content !important;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: black;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #6D0E0E !important;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+
+.btn-ofertas {
+    background-color: #6D0E0E !important;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 0px 10px 0px 10px !important;
+    border: none;
+    margin: auto !important;
+    color: white !important;
+    text-align: center !important;
+    width: fit-content;
+}
+
+.btn-ofertas:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+
+
+.navbar-toggler-icon {
+    background-image: url("https://via.placeholder.com/20x20");
+}
+
+.item {
+    color: black !important;
+}
+
+.final {
+    text-align: justify !important;
+}
+
+
+.wdt {
+    height: auto !important;
+}
+
+.cif {
+    color: green;
+    font-size: 20px;
+}
+
+#diferenciais {
+    background-color: #6D0E0E;
+    color: white;
+}
+
+#diferenciais .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    color: black;
+}
+
+#diferenciais .card:hover {
+    transform: scale(1.05);
+    /* Aumenta o tamanho do card ao passar o mouse */
+}
+
+#diferenciais .card-img-top {
+    height: 200px;
+    /* Define uma altura padrão para as imagens */
+    object-fit: cover;
+    /* Faz com que a imagem se ajuste ao container */
+}
+
+#diferenciais h2 {
+    color: white;
+    /* Cor personalizada para o título */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+    /* Cor personalizada para os ícones de controle */
+    border-radius: 50px;
+    width: 40x;
+    height: 40px;
+}
+
+
+.card-text {
+    font-size: 15px !important;
+}
+
+.container {
+    text-align: center !important;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .carousel-item .col-md-4 {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .carousel-item .col-md-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+        align-items: center;
+    }
+}
+
+.card {
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Estilização do carrossel */
+#linha-completa-solucoes .carousel-inner {
+    display: flex;
+    flex-direction: row;
+}
+
+#linha-completa-solucoes .carousel-item {
+    display: flex;
+    justify-content: center; /* Centraliza o card dentro do slide */
+    width: 100%; /* Cada slide ocupa 100% da largura do carrossel */
+}
+
+#linha-completa-solucoes .carousel-item .card {
+    width: 100%; /* Cada card ocupa 100% da largura do slide */
+    max-width: 100%; /* Garante que o card não exceda a largura do slide */
+}
+
+#linha-completa-solucoes .card-img-top {
+    width: 100%; /* Garante que a imagem ocupe 100% da largura do card */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+#linha-completa-solucoes .card-body {
+    text-align: center;
+}
+
+/* Ajustes para os controles do carrossel */
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo para os ícones */
+    border-radius: 50%;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 767px) {
+    #linha-completa-solucoes .carousel-item {
+        display: flex;
+         /* Centraliza o card dentro do slide */
+    }
+}
+
+
+
+#sobre-nos {
+    padding: 40px 0;
+    background-color: #6D0E0E;
+    color: white;
+}
+
+
+
+
+#sobre-nos h2 {
+    margin-bottom: 20px;
+}
+
+#sobre-nos p {
+    line-height: 2;
+    text-align: left;
+}
+
+#sobre-nos img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 767.98px) {
+    #sobre-nos .row {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
